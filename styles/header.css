@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@font-face {
+    font-family: 'UAV';
+    src: url(../fonts/UAV-OSD-Sans-Mono.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(360deg, #285673, #73BCD9);
+    padding: 20px;
+    height: 20px;
+    box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.286);
+
+    
+}
+
+header h1{
+    font-family: 'UAV';
+    text-align: center;
+    color: #F2F2F2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.6em;
+    text-shadow: -2px 2px 3px rgba(0, 0, 0, 0.396);
+}
+header a{
+    text-decoration: none;
+}
+
+header p{
+    color:#F2F2F2;
+    font-size: 0.7em;
+    text-indent: 0px;
+    text-align: center;
+    margin-top: 0px;
+}
+nav{
+    color: white;
+    margin-top: 0px;
+    background-color: #285673;
+    padding: 5px;
+    text-align: center;
+}
+
+
+nav > a{
+    font-family: 'Fredoka One', cursive;
+    font-weight: normal;
+    color: #F2F2F2;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover{
+    background-color: #3088BF;
+    padding: 2px;
+    border: 0.1px solid #28567365;
+    border-radius: 5px;
+}
+
+
+
+footer{
+    background-color:#285673;
+    color: white;
+    padding: 4px;
+}
+
+footer > p{
+    margin: 0px auto 0px auto;
+    text-align: center;
+
+}

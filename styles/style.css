@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0px;
+}
+
+main{
+    background-color: #5697bf3a;
+    min-width: 280px;
+    max-width: 750px;
+    height: 100%;
+    margin: auto;
+    padding: 20px 40px 20px 40px;
+    box-shadow: 0px 2px 10px black;
+}
+main p{
+    font-size: 1.2em;
+    color: rgba(211, 211, 211, 0.486);
+}
+
+main #section1{
+    margin: auto;
+    background-image: linear-gradient(360deg, #285673, #3088BF);
+    width: 92%;
+    min-height: 100px;
+    max-height: 250px;
+    padding: 10px 20px 10px 20px;
+    border-top-right-radius: 10px ;
+    border-top-left-radius: 10px;
+}
+
+main #section1 h2{
+    font-size: 3em;
+    font-family: 'Kdam Thmor Pro';
+    color: white;
+
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    text-shadow: -2px 2px 3px rgba(0, 0, 0, 0.396);
+}
+main #section1 p{
+    font-size: 1em;
+    margin-top: -20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+main article{
+    width: 92%;
+    background-color: #5697bf26;
+    margin: auto;
+    padding: 20px;
+    padding-top: 0px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.356);
+}
+
+main article h2{
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    color: #285673;
+    padding: 1px;
+
+
+}
+main article p{
+    font-size: 1em;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.artigo{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.463);
+    padding: 10px 10% 10px 10%;
+}
+
+article >section{
+    margin-bottom: 10px;
+}
+
+main article a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #285673;
+}
+main article a:hover{
+    text-decoration: underline;
+}
+
+main article abbr{
+    text-decoration: none;
+}
+
+main article a::after{
+    content: '🔗';
+}
+
+
